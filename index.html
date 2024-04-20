@@ -153,8 +153,18 @@
                     <label for="message" class="form__item--label">Message</label>
                     <textarea id="message" class="input" type="text" name="message" required></textarea>
                 </div>
+                <button id="contact__submit" class="form__submit">Send it my way</button>
             </form>
+
+            <div class="modal__overlay modal__overlay--loading">
+              <i class="fa-solid fa-spinner"></i>
+            </div>
+
+            <div class="modal__overlay modal__overlay--success">
+              Thanks for the message! Looking forward to speeaking with you soon.
+            </div>
         </div>
+        <i class="fa-solid fa-xmark modal__exit click"></i>
     </div>
     <section id="projects">
       <div class="container">
